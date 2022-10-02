@@ -1,11 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html {
   font-family: 'Rubik', sans-serif;
-}
-
-.container {
-  width: 75%;
-  height: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 48px;
+  background-color: #333;
+  color: #f1f1f1;
 }
